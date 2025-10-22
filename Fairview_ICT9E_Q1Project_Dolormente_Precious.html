@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1 Project</title>
+	<style>
+		ul{
+			list-style-type: none;
+			margin: 3px;
+			padding: 5px;
+			overflow: auto;/* Or hidden, scroll, visible, clip */
+			background-color: #0b152b; 
+			border-radius: 5px;
+		}
+
+		ul li a {
+			display: block;
+			color: white;
+			text-align: right;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		ul li {
+			float: right;
+		}
+		.footer {
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			background-color: black;
+			color: white;
+			text-align: center;
+		}
+		h1 { span style color: #124a7a; 
+			font-family: Consolas;
+			background-color: #aad2fa;
+			font-family: Consolas;
+			text-align: auto;
+			width: 750px; 
+			
+		}
+		#form-box{
+
+
+			background: rgba(170, 199, 227, 0.8);
+			padding: 30px;
+			border-radius: 5px;
+			width: 420px;
+			height: 550px;
+			margin: auto;
+			box-shadow: 0 4px 10px rgba(178, 199, 214, 0.92);
+			color: #16191c;
+			text-align: left;
+			font-family: Courier New;
+			
+		}
+		body { background-image: url('https://i.pinimg.com/736x/c1/18/66/c11866b121a1abc35485715d9d5cb534.jpg');
+			background-repeat: no-repeat;
+			
+		}
+		h2 {
+			font-family: 'Bubblegum Sans', cursive;
+		}
+		p {
+			text-align: center;
+			width: 600px;
+			font-family:Courier New;
+			font-style: ;
+		}
+	</style>
+</head>
+<body>
+
+
+	<div style="background-color:  #c2dff0;">
+	<!-- make sure to that href matches the id you assigne to each section of the page-->
+	<ul>
+		<li><a href="#about">About</a></li>
+		<li><a href="#works">Works</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+	<br>
+
+<center>
+	<section class="intro">
+    <img src="file:///Users/admin/Desktop/Screen%20Shot%202025-10-07%20at%202.26.17%20PM.png" alt="My Logo" style="height: 170px; width: 170px; border-radius: 100px;">
+
+    <h2>Hello, I'm Precious Dolormente</h2>
+    <p>Web Developer in Training</p>
+    <br><br>
+ </div>
+  </section>
+ </center>
+
+
+	<!-- these ids are the ones to you assigned in lines 13-15 -->
+<center>
+	<h1 id="about">About My Portfolio</h1>
+	<p> Hi, I’m Precious, a student learning in web development. I study building and managing websites while learning new skills in coding and design.I’m passionate about creating accessible and easy to use webpage as well as presenting good quality online experiences.</p>
+
+	<h1 id="works">My Works</h1> 
+
+	<img src= file:///Users/admin/Desktop/Screen%20Shot%202025-10-07%20at%2010.43.50%20AM.png style="height: 400px; width: 400px; border-radius: 20px;"> 
+
+	<br> 
+
+	<img src="file:///Users/admin/Desktop/Screen%20Shot%202025-10-07%20at%2010.54.20%20AM.png" style="height: 400px; width: 400px; border-radius: 20px;">
+
+	<br>
+
+	<h1 id="contact">Contact Info</h1>
+<section>
+	<div id="form-box">
+
+	<form action="">
+		<label form="full name">Full Name:</label>
+		<br>
+		<input type="text" id="full name" name="full name" >
+		<br><br>
+
+		<label form="email">Email:</label>
+		<br>
+		<input type="email" id="email" name="email">
+		<br><br>
+
+		<label for="">How did you hear about me?</label>
+		<br>
+		<input type="radio" id="Facebook" name="Facebook" value="Facebook">
+		<label for="Facebook">Facebook</label>
+		
+		<input type="radio" id="Tiktok" name="Tiktok" value="Tiktok">
+		<label for="Tiktok">Tiktok</label>
+
+		<input type="radio" id="Friends" name="Friends" value="Friends">
+		<label for="Friends">Friends</label>
+
+		<input type="radio" id="Others" name="Others" value="Others">
+		<label for="Others">Others</label>
+		<br><br>
+
+		<label for=">What can I help you with?">What can I help you with?</label>
+		<br>
+		<input type="checkbox" id="Programming" name="Programming" 
+		value="Programming">
+		<label for="Programming">Programming</label>
+
+		<input type="checkbox" id="Web Design" name="Web Design" 
+		value="Web Design">
+		<label for="Web Design">Web Design</label>
+
+		<input type="checkbox" id="Robotics" name="Robotics" 
+		value="Robotics">
+		<label for="Robotics">Robotics</label>
+		<br><br>
+
+		<label for="feedback">Let me know your feedback
+		</label>
+		<br>
+		<textarea id="feedback" name="feedcback" rows="5.5" cols="45"
+		placeholder="Any opinions or suggestions are appreciated..."></textarea>
+		<br><br>
+
+		
+		<label for="">Rate My Portfolio:</label>
+		<br>
+		<select id="platform" name="platform"> 
+			<option value="none">--Select--</option>
+			<option value="emoji">🥳</option>
+			<option value="emoji">😊</option>
+			<option value="emoji">🙂‍</option>
+			<option value="emoji">😑</option>
+			<option value="emoji">🫥</option>
+		</select>
+		<br><br>
+
+		<br><br>
+
+		 <center><input type="submit" id="submit" name="submit" value="Submit Form"
+		style="border-radius: 5px; padding: 10px; width: 250px; background-color: #45a4ff; 
+		font-family: Times New Romans;"></center>	
+			
+</section>
+</center>
+			
+ 
+
+	
+
+</body>
+</html>
